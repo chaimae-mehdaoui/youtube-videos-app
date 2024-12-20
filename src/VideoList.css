@@ -1,0 +1,39 @@
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.video-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 320px;
+    text-align: left;
+}
+
+.video-player {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+.video-info {
+    padding: 10px;
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.video-description {
+    font-size: 14px;
+    color: #666;
+}
